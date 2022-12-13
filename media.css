@@ -1,0 +1,307 @@
+@media  screen and (max-width: 1000px) {
+    nav{
+        position: relative;
+    }
+    nav ul{
+        flex-direction: column;
+        margin-left: 0;
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 2rem;
+        background-color: #196bc9;
+        width: 100%;
+        /* padding-bottom: 6rem; */
+        border-radius: 0 0 25px 25px;
+        margin-left: 0;
+        text-align: center;
+        z-index: 100;
+        height: 90vh;
+    }
+    nav ul li{
+        margin-top: 4rem;
+        margin-left: 0;
+    }
+    nav ul li a{
+        color: white;
+    }
+    nav ul li a:hover{
+        color: #fff;
+        transform: scale(1.2);
+    }
+    
+    .menub{
+        width: 100%;
+        position: absolute;
+        right: 0;
+        display: grid;
+        place-items: end;
+    }
+    #menubar{
+       display: block;
+      }
+
+    #closebar{
+        display: none;
+    }
+
+    .landing-page{
+        margin: 1rem 0;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .landing-page .text{
+        width: 90%;
+        margin: auto;
+    
+    }
+    .landing-page .text h1{
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    .text .anchor{
+        width: 100%;
+        margin: auto;
+        display: block;
+    }
+    .landing-page .text a{
+        text-align: center;
+        width: 13rem;
+    }
+    .landing-page .text p{
+        font-size: 16px;
+    }
+
+    .landing-page .img{
+        width: 17rem;
+        margin: auto;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    
+    .landing-page .img .user-img{
+        width:90%;
+        margin: auto;
+        object-fit: cover;
+        height: 16rem;
+        margin: auto;
+        border-radius: 95%;
+    }
+
+    .about-me{
+        margin: 6rem 0 7rem 0;
+    }
+    /* about me */
+    .about-me p{
+        font-size: 15px;
+    }
+    .about-me .content{
+       flex-direction: column-reverse;
+        padding-top: 0rem;
+    }
+    .about-me .left{
+        width: 100%;
+    }
+    .about-me .left h1{
+        font-size: 23px;
+        text-align: center;
+        margin-bottom: -1rem;
+    }
+    .about-me .left p{
+        font-size: 15px;
+    }
+    .about-me .right{
+        width: 100%;
+        padding-top: 2rem;
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin: auto;
+        
+    }
+    
+    .about-me .right .cards{
+        width: 95%;
+        justify-content: center;
+        font-size: 16px;
+        border-radius: 50px 0 50px 0;
+        border: 3px solid hsla(212, 78%, 45%, .3);
+        
+    }
+    .about-me .right .cards  img{
+        width: 70%;
+       height: 12rem;
+       border: none;
+    }
+
+
+    /* services */
+    .serv{
+        margin-top: -2rem;
+    }
+    .serv .one{
+        margin-bottom:2.5rem ;
+    }
+    .serv .one p{
+        font-size: 15px;
+    }
+    .serv .contnt{
+        flex-direction: column;
+        width: 97%;
+        margin: auto;
+    }
+    .serv .contnt .first{
+        width: 100%;
+        margin: auto;
+    }
+    .serv .contnt .first img{
+        width: 100%;
+    }
+    .serv .contnt .second{
+        width: 72%;
+        margin: auto;
+    }
+    .serv .contnt .second .two .on {
+       top: 0px;
+       left: -3rem;
+    }
+
+
+    /* PORTFOLIO */
+    .portf{
+        margin-top: 3rem;
+    }
+    .portf p{
+        font-size: 15px;
+    }
+    .portf .contnt{
+        grid-template-columns:  1fr;
+    }
+    .portf .first{
+        width: 93%;
+        margin: auto;
+        margin-bottom: 1.5rem;
+        margin-top: 2rem;
+    }
+    
+    .portf .contnt h1{
+        font-size: 19px;
+    }
+    .portf .contnt p{
+        font-size: 14px;
+    }
+
+    .mob{
+        display: block;
+    }
+    .desk{
+        display: none;
+    }
+
+    /* CONTACT */
+    .contact{
+        padding-top: 3rem;
+    }
+    .contact p{
+        font-size: 15px;
+    }
+    .contact .content{
+       flex-direction: column-reverse;
+    }
+    .contact .content .left{
+        width: 98%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .contact .content .left img{
+        width: 2rem;
+    }
+    .contact .content .left .txt{
+        font-size: 15px;
+    }
+    .contact .content .right{
+        width: 100%;
+        margin: auto;
+    }
+        .contact .content .right form{
+        width: 95%;
+        margin: auto;
+        padding: 1rem 1.1rem 1rem .9rem;
+
+     }
+        .contact .content .right form input {
+            width: 100%;
+            padding:0 1rem;
+    }
+        .contact .content .right textarea{
+            width: 100%;
+            padding:.8rem 1rem;
+    }
+        .contact .content .right button{
+        width: 50%;   
+    }
+
+    /*  FOOTER */
+    footer{
+        height: 15rem;
+    }
+    footer .contxt{
+       flex-direction: column;
+       justify-content: center;
+       padding-top: 1rem;
+    }
+    footer .foot{
+        width: 100% ;
+      text-align: center;
+    }
+    footer .foot h1{
+        margin-bottom:1rem ;
+    }
+    footer .ul{
+        width: 96% ;
+        margin: auto;
+      justify-content: center;
+      gap: 1rem;
+    }
+    footer .ul p{
+        list-style: none;
+     margin-left: 0;
+    }
+    footer .img{
+        width: 90% ;
+        margin: auto;
+      text-align: center;
+      margin-top: 1rem;
+    }
+    footer .ul p{
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+       font-size: 2px;
+    }
+    footer .ul li a{
+        font-size: 15px;
+    }
+
+    
+}
+
+@media  screen and (max-width: 370px) {
+    .about-me .right .cards{
+      display: grid;
+       margin-bottom: 1rem;
+       justify-content: center;
+    }
+    .about-me .right .card{
+        width: 12rem;
+        margin: auto;
+        justify-content: center;
+        margin-left: 0rem;
+    }
+    .contact .content .right button{
+        width: 80%;   
+    }
+
+}
+
+
+ 
